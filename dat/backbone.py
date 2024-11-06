@@ -108,7 +108,7 @@ class Backbone(BackboneBase):
         backbone = getattr(torchvision.models, name)(
             replace_stride_with_dilation=[False, False, dilation],
             weights=None, norm_layer=norm_layer)
-        backbone.load_state_dict(torch.load('resnet50-0676ba61.pth'))
+        backbone.load_state_dict(torch.load('resnet50.pth'))
         # assert name not in ('resnet18', 'resnet34'), "number of channels are hard coded"
         super().__init__(backbone, train_backbone, return_interm_layers)
         if dilation:
