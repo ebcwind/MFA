@@ -7,3 +7,4 @@ The dependency.py embeds Class Dependency Networks using ProNE.
 Please get the ProNE model and javalang program from the corresponding links.
 Javalang:https://github.com/c2nes/javalang
 ProNE:https://github.com/THUDM/ProNE
+Training and testing this model by simply run the trian_model2.py
