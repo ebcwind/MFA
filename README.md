@@ -2,7 +2,7 @@ This is a code copy of our proposed Multi-scale feature fusion with attention me
 train_mode2 is model training and prediction.
 MFA is the model structure, and dat is the deformable transformer. 
 
-PROMISE contains the dataset and related word embedding files. network_1018.pickle includes all datasets we used.
+PROMISE contains the dataset and related word embedding files. network_1018.pickle includes all datasets we used. Minimal datasets.zip is a copy of original datasets.
 
 The AST.py file uses javalang to parse the source code and generate a triple traversal sequence.
 
